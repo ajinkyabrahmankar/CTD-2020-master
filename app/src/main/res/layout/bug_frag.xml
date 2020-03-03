@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/bug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="@drawable/grad"
+                android:fontFamily="@font/notosans"
+                android:text="Developers"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:padding="20dp">
+
+            </TextView>
+            <ScrollView
+                android:background="@drawable/grad1"
+                android:id="@+id/scro2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:elevation="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tanuj"
+                        android:scaleType="centerCrop" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="62.5dp"
+                            android:fontFamily="@font/notosans"
+                            android:text="Tanuj Agrawal"
+                            android:textSize="20sp"
+                            android:paddingTop="30dp"
+                            android:textAlignment="center" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="62.5dp"
+                            android:text="@string/tanuj_no"
+                            android:textColorHint="#3395FE"
+                            android:textColor="#3395FE"
+                            android:fontFamily="@font/notosans"
+                            android:onClick="call4"
+                            android:textSize="18sp"
+                            android:paddingBottom="30dp"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:elevation="30dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/atharva"
+                        android:scaleType="centerCrop"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="62.5dp"
+                            android:text="Atharva Saraf"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/notosans"
+                            android:paddingTop="30dp"
+                            android:textAlignment="center" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="62.5dp"
+                            android:text="@string/atharva_no"
+                            android:textSize="18sp"
+                            android:onClick="call5"
+                            android:fontFamily="@font/notosans"
+                            android:textColorHint="#3395FE"
+                            android:textColor="#3395FE"
+                            android:paddingBottom="30dp"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:elevation="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ajinx"
+                        android:scaleType="centerCrop" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:text="Ajinkya \nBrahmankar"
+                            android:layout_gravity="center"
+                            android:paddingTop="20dp"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/notosans"
+                            android:paddingBottom="0dp"
+
+                            android:textAlignment="center" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="62.5dp"
+                            android:onClick="call6"
+                            android:text="@string/jinx_no"
+                            android:textColorHint="#3395FE"
+                            android:textColor="#3395FE"
+                            android:textSize="18sp"
+                            android:paddingBottom="10dp"
+                            android:fontFamily="@font/notosans"
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </FrameLayout>
+</io.codetail.widget.RevealFrameLayout>

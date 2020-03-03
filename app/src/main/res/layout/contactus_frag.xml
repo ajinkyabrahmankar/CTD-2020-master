@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/contactus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scro1"
+            android:background="@drawable/grad1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grad"
+                android:fontFamily="@font/notosans"
+                android:text="Contact Us"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:padding="20dp"/>
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="20dp"
+                android:elevation="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+
+                        android:layout_gravity="center"
+                        android:layout_width="250dp"
+                        android:layout_height="225dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/hritik"
+                       />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hritik Zutshi"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/notosans"
+                            android:textAlignment="center" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hritik_no"
+                            android:layout_marginTop="5dp"
+                            android:textColorHint="#3395FE"
+                            android:textColor="#3395FE"
+                            android:textSize="18sp"
+                            android:onClick="call2"
+                            android:fontFamily="@font/notosans"
+                            android:textAlignment="center"
+                            android:paddingBottom="20dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        app:cardCornerRadius="20dp"
+                        android:elevation="70dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <ImageView
+
+                                android:layout_gravity="center"
+                                android:layout_width="250dp"
+                                android:layout_height="225dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/shreya"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:fontFamily="@font/notosans"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Shreya Lanjewar"
+                                    android:textSize="20sp"
+                                    android:textAlignment="center" />
+                                <TextView
+                                    android:fontFamily="@font/notosans"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/shreya_no"
+                                    android:layout_marginTop="5dp"
+                                    android:textColorHint="#3395FE"
+                                    android:textColor="#3395FE"
+                                    android:textSize="18sp"
+                                    android:onClick="call3"
+                                    android:textAlignment="center"
+                                    android:paddingBottom="20dp"/>
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+</io.codetail.widget.RevealFrameLayout>

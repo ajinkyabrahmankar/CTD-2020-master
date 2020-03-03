@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/faqs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scro"
+            android:background="@drawable/grad1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grad"
+            android:text="Frequently Asked Questions"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/notosans"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:padding="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:text="@string/que1"
+                android:fontFamily="@font/notosans"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/queSize"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/notosans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="32dp"
+                android:text="@string/ans1"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/ansSize" />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/notosans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:text="@string/que3"
+                android:textSize="@dimen/queSize"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/notosans"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="32dp"
+                android:text="@string/ans3"
+                android:justificationMode="inter_word"
+                android:textSize="@dimen/ansSize" />
+
+            <TextView
+                android:textColor="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/notosans"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="16dp"
+                android:text="@string/que4"
+                android:textSize="@dimen/queSize"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="32dp"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/notosans"
+                android:text="@string/ans4"
+                android:textSize="@dimen/ansSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/notosans"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:text="@string/que5"
+                android:textSize="@dimen/queSize"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/notosans"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="32dp"
+                android:justificationMode="inter_word"
+                android:text="@string/ans5"
+                android:textSize="@dimen/ansSize" />
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</io.codetail.widget.RevealFrameLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "991715394929",
+    "firebase_url": "https://ctdfinal-master.firebaseio.com",
+    "project_id": "ctdfinal-master",
+    "storage_bucket": "ctdfinal-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991715394929:android:802475b85210bc5a14a2d0",
+        "android_client_info": {
+          "package_name": "yalantis.com.sidemenu.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991715394929-fna2ms4p3oejo8bs1hrtik21mgp1tn6b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yalantis.com.sidemenu.sample",
+            "certificate_hash": "5217db8d0ad91ee1c0e54d1c2a212f33a7c7628b"
+          }
+        },
+        {
+          "client_id": "991715394929-2dklda75n612hktnsdj53v7s8dmqiacu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA8e73Z1Catnu5BI11MQUTUMaNt8GIXcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991715394929-2dklda75n612hktnsdj53v7s8dmqiacu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

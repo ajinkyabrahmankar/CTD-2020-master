@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+<style name="tool" parent="ThemeOverlay.AppCompat.ActionBar">
+
+    <item name="fontFamily">@font/solthin</item>
+    <item name="android:textColorPrimary">#FFFFFF</item>
+    <item name="android:textColor">#000000</item>
+    <item name="actionMenuTextColor">#000000</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:colorPrimaryDark">#FFFFFF</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+
+</style>
+</resources>

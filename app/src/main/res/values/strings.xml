@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CTD \'20</string>
+    <string name="action_settings">Privacy Policy</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="about1">About IEEE</string>
+    <string name="about_content">The Institute of Electrical and Electronics Engineering (IEEE) is an International organization which has been
+    the nexus for propagating scientific expertise among people all over the globe. IEEE continues to attract students, faculties and professionals
+        from various fields all around the world and is committed to incorporating diversity in thoughts which is essential for scientific developement.
+    IEEE serves as a hub to many engineering students and express their technical acuity to the world and has always been at the forefront of the technical revolution</string>
+    <string name="about2">About PISB</string>
+
+    <string name="about2_content">PICT IEEE Student Branch (PISB) was established in the year 1988 with an aim of inculacating a sense of technical awareness amongst its student members.
+        PISB aims to escalae the knowledge and trends in the diverse fields of technologies amongst its members. PISB upholds two major events every year - Credenz and Credenz Tech Dayxz with the first one being
+    conducted in odd semester and the later one in the even semester. PISB is also marked by its Women in Engineering (WIE) chapter, an initiative for the empowerment of women.</string>
+
+    <string name="que1">Q. What is the IEEE membership fee? </string>
+    <string name="que2">Q. What is the duration of the membership? </string>
+    <string name="que3">Q. There\'s too many people working, would everyone be good enough to learn in the span
+    of 3 months?</string>
+    <string name="que4">Q. What are the benefits I can avail from this membership? </string>
+    <string name="que5">Q. What other activities are part of IEEE, apart from Credenz? </string>
+
+    <string name="ans1">A. The membership fee for PISB is 940/-. You can talk to anyone from the \'Contact Us\' section regarding the
+    registration process.</string>
+
+    <string name="ans2">A. The membership will last for 6 months. You will recieve a mail from ieeecontact.org
+    regarding the membership.</string>
+
+    <string name="ans3">A. Credenz is a huge event. To make this event successful, PISB requires a large number of members.</string>
+
+    <string name="ans4">A. PISB membership gives you direct access to all learning materials available on the international
+     IEEE reposotories, along with the benefit of the extensive network of faculty and seniors students to guide you.</string>
+
+    <string name="ans5">A. PISB stays active throughout the year with several events besides Credenz, such as CTD and SIGs, Apart from
+    that members also come together on personal projects in various fields ranging from competitive coding to
+    machine learning.</string>
+    <string name="jinx_no"><u>+91 8999426215</u></string>
+    <string name="atharva_no"><u>+91 7397865565</u></string>
+    <string name="tanuj_no"><u>+91 9423929049</u></string>
+    <string name="shreya_no"><u>+91 8999412539</u></string>
+    <string name="hritik_no"><u>+91 7701864159</u></string>
+    <string name="rushikesh_no"><u>+91-9370896574\n\n\n\n\n</u></string>
+    <string name="tanmay_no"><u>+91-9922704483</u></string>
+    <string name="garvita_no"><u>+91-8989553238</u></string>
+    <string name="shubham_no"><u>+91-9657979483\n\n\n\n\n</u></string>
+    <string name="asawari_no"><u>+91-8956783613</u></string>
+    <string name="aparna_noo"><u>+91-8149841027\n\n\n\n\n</u></string>
+    <string name="sreya_no"><u>+91-8888004529</u></string>
+    <string name="nishita_no"><u>+91-9579761430\n\n\n\n\n</u></string>
+</resources>
